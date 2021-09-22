@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt_BR">
 <head>
-    <!-- -->
+    <!-- PAGE INFO -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <!-- icones -->
+    <link rel="stylesheet" href="assets/fonts/style.css">
+
+    <!-- PAGE INFO -->
+
     <link rel="stylesheet" href="style.css">
+
+    <!-- fonts -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,7 +23,18 @@
     <header id="header">
         <nav class="container">
             <a class="logo" href="#">beaulty<span>salon</span>.</a>
-            <div class="menu">...</div>
+            <div class="menu show">
+                <ul class="grid">
+                    <li><a class="title" href="#home">Início</a></li>
+                    <li><a class="title" href="#about">Sobre</a></li>
+                    <li><a class="title" href="#services">Serviços</a></li>
+                    <li><a class="title" href="#testimonials">Depoimentos</a></li>
+                    <li><a class="title" href="#contact">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="toggle icon-menu"></div>
+            <div class="toggle icon-close"></div>
         </nav>
     </header>
 
@@ -29,7 +47,7 @@
                     />
                 </div>
                 <div class="text">
-                    <h1>Saúde natural para os cabelos</h1>
+                    <h2 class="title">Saúde natural para os cabelos</h2>
                     <p>
                         Um salão exclusivo em São Paulo, especializado em tratamentos naturais.
                     </p>
@@ -40,14 +58,59 @@
 
         <div class="divider-1"></div>
 
-        <section class="section">
-            <div class="container">
-                Outra section
-
-                sdfsefsesf
+        <section class="section" id="about">
+            <div class="container grid">
+                <div class="image">
+                    <img src="https://media.istockphoto.com/photos/in-a-hair-salon-picture-id1306817644?b=1&k=20&m=1306817644&s=170667a&w=0&h=_WskuZH3vpLcsJCXtCcmc-EXfALgcbSeFb2BouLqVHs=" alt="Corte de cabelo"
+                    />
+                </div>
+                <div class="text">
+                    <h2 class="title">Sobre nós</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus ipsum tempora hic, temporibus eaque sint repellat suscipit rem delectus! Optio ratione eligendi cum voluptatum, eius maxime officia illo tempora quod.
+                    </p>
+                    <br>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor porro nobis doloribus quo a. Ea facilis neque magnam possimus ratione omnis, quis esse animi sequi eveniet suscipit libero obcaecati distinctio.</p>
+                    <p>
+                    <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates minus illum, tempore, amet, iure placeat ex in aspernatur eum porro doloribus. Deserunt, modi nostrum recusandae commodi reprehenderit eveniet autem quos.
+                    </p>
+                </div>
             </div>
         </section>
+
+        <div class="divider-1"></div>
+
+        <section class="section" id="services">
+            <div class="conteiner grid">
+                <header>
+                    <h2 class="title">Serviços</h2>
+                    <p>
+                        Com mais de 10 anos no mercado, o <strong>Beaultysalon</strong> já
+                        consquistou clientes de inúmeros países com seus tratamentos exclusivos e totalmente naturais
+                    </p>
+                </header>
+                
+                <div class="cards grid">
+                    <div class="card">
+                        <i class="icon-woman-hair"></i>
+                        <h3 class="title">Terapia capilar </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus hic facere sed animi numquam, architecto dignissimos ea soluta voluptas, provident cumque illum rem nesciunt, cum odio quidem earum ipsum quis.</p>
+                    </div>
+                    <div class="card">
+                        <i class="icon-trim"></i>
+                        <h3 class="title">Cortes</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus hic facere sed animi numquam, architecto dignissimos ea soluta voluptas, provident cumque illum rem nesciunt, cum odio quidem earum ipsum quis.</p>
+                    </div>
+                    <div class="card">
+                        <i class="icon-cosmetics"></i>
+                        <h3 class="title">Tratamentos</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus hic facere sed animi numquam, architecto dignissimos ea soluta voluptas, provident cumque illum rem nesciunt, cum odio quidem earum ipsum quis.</p>
+                    </div>
+                </div>
+        </section>
     </main>
-    
+    <script src="main.js"></script>
 </body>
 </html>
